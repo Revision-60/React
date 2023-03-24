@@ -1,4 +1,5 @@
 import { Component, Fragment } from "react";
+import Home from "../../pages/Home";
 import Counter from "../Counter";
 import Customer from "../Customer";
 
@@ -8,7 +9,7 @@ export default class Content extends Component {
       //Fragment
       <>
         <div className="flex justify-center items-center h-screen">
-          <Customer
+          {/* <Customer
             {...{
               id: "C001",
               name: "Dasun",
@@ -27,9 +28,9 @@ export default class Content extends Component {
           />
 
           <Counter {...{ initValue: 95 }} />
-          <Counter {...{ initValue: 5 }} />
+          <Counter {...{ initValue: 5 }} /> */}
+          <Home />
         </div>
-        <h1></h1>
       </>
     );
   }
