@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import userImage from "../../assets/user.png";
 
 export default class Header extends Component {
   render() {
@@ -10,13 +11,15 @@ export default class Header extends Component {
             <h1 className="pl-6 text-3xl">LOGO</h1>
           </section>
           <section className="h-full w-1/2 flex items-center gap-6 justify-end text-lg">
-            <NavLink to={"/home"}>Home</NavLink>
+            <NavLink to={"/"}>Home</NavLink>
 
             <NavLink to={"/about"}>About</NavLink>
 
             <NavLink to={"/"}>Contact Us</NavLink>
 
-            <NavLink to={"/"}>Profile</NavLink>
+            <NavLink to={"/"}>
+              <img src={userImage} className="w-10 h-10" alt="" />
+            </NavLink>
           </section>
         </div>
       </section>

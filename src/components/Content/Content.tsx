@@ -32,7 +32,7 @@ export default class Content extends Component {
           <Counter {...{ initValue: 95 }} />
           <Counter {...{ initValue: 5 }} /> */}
           <Routes>
-            <Route path="/home" element={<Home />}></Route>
+            <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
           </Routes>
         </div>
