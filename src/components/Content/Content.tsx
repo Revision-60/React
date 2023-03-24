@@ -1,13 +1,15 @@
 import { Component, Fragment } from "react";
+import Customer from "../Customer";
 
 export default class Content extends Component {
   render() {
     return (
-      // Fragment
+      //Fragment
       <>
         <div className="flex justify-center items-center h-screen">
-          <h1>Content</h1>
+          <Customer />
         </div>
+        <h1></h1>
       </>
     );
   }
