@@ -26,7 +26,8 @@ export default class Content extends Component {
             }}
           />
 
-          <Counter {...{ initValue: 20 }} />
+          <Counter {...{ initValue: 95 }} />
+          <Counter {...{ initValue: 5 }} />
         </div>
         <h1></h1>
       </>

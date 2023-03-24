@@ -31,12 +31,14 @@ export default class Counter extends Component<CounterProps, CounterState> {
         <h1>{this.state.count}</h1>
         <section className="flex gap-6">
           <button
+            disabled={this.state.count <= 0}
             className="text-4xl border-2 w-12 h-12 rounded-lg"
             onClick={this.decreaseCount}
           >
             -
           </button>
           <button
+            disabled={this.state.count >= 100}
             className="text-4xl border-2 w-12 h-12 rounded-lg"
             onClick={this.increaseCount}
           >
