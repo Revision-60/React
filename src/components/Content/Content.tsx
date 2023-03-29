@@ -1,6 +1,7 @@
 import { Component, Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 import About from "../../pages/About";
+import Contact from "../../pages/Contact";
 import Home from "../../pages/Home";
 import Counter from "../Counter";
 import Customer from "../Customer";
@@ -34,6 +35,7 @@ export default class Content extends Component {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
           </Routes>
         </div>
       </>

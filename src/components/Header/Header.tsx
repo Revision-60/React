@@ -15,7 +15,7 @@ export default class Header extends Component {
 
             <NavLink to={"/about"}>About</NavLink>
 
-            <NavLink to={"/"}>Contact Us</NavLink>
+            <NavLink to={"/contact"}>Contact Us</NavLink>
 
             <NavLink to={"/"}>
               <img src={userImage} className="w-10 h-10" alt="" />
