@@ -44,12 +44,14 @@ export default class Home extends Component<HomeProps, HomeState> {
   render() {
     return (
       <div>
-        <Student
-          id="sdf"
-          name="sdfsdf"
-          address="sdfdf"
-          subjects={["Maths", "Science"]}
-        />
+        {this.state.students.map((student) => (
+          <Student
+            id={student.id}
+            name={student.name}
+            address={student.address}
+            subjects={student.subjects}
+          />
+        ))}
       </div>
     );
   }
