@@ -26,15 +26,30 @@ export default class Home extends Component<HomeProps, HomeState> {
           address: "Matara",
           subjects: ["Maths", "Science"],
         },
+        {
+          id: "S002",
+          name: "Ashan",
+          address: "Galle",
+          subjects: ["Bio", "English"],
+        },
+        {
+          id: "S003",
+          name: "Sithum",
+          address: "Galle",
+          subjects: ["Tech", "Commerce"],
+        },
       ],
     };
   }
   render() {
     return (
       <div>
-        <Student />
-        <Student />
-        <Student />
+        <Student
+          id="sdf"
+          name="sdfsdf"
+          address="sdfdf"
+          subjects={["Maths", "Science"]}
+        />
       </div>
     );
   }
