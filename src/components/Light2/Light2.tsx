@@ -10,14 +10,14 @@ const Light2 = () => {
   const [isOn, setIsOn] = useState<boolean>(false);
   const [buttonStyle, setButtonStyle] = useState<string>(buttonOffStyle);
 
-  alert("Constructor"); // Initialize
+  // alert("Constructor"); // Instantiate
 
-  useEffect(() => {
-    alert("Clicked..!"); // Mount
-    return () => {
-      alert("Unmounted..!"); // Unmount
-    };
-  });
+  // useEffect(() => {
+  //   alert("Clicked..!"); // Mount
+  //   return () => {
+  //     alert("Unmounted..!"); // Unmount
+  //   };
+  // });
 
   return (
     <div className="w-full h-screen flex justify-center items-center bg-slate-900">
