@@ -5,6 +5,7 @@ import Contact from "../../pages/Contact";
 import Home from "../../pages/Home";
 import Counter from "../Counter";
 import Customer from "../Customer";
+import Profile from "../../pages/Profile/Profile";
 
 export default class Content extends Component {
   render() {
@@ -36,6 +37,7 @@ export default class Content extends Component {
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/profile" element={<Profile />}></Route>
           </Routes>
         </div>
       </>

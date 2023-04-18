@@ -43,7 +43,7 @@ export default class Header extends Component {
             </NavLink>
 
             <NavLink
-              to={"/abc"}
+              to={"/profile"}
               className={({ isActive }) => (isActive ? navStyles : "")}
             >
               <img src={userImage} className="w-10 h-10" alt="" />

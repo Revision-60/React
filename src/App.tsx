@@ -9,10 +9,10 @@ import Light2 from "./components/Light2/Light2";
 function App() {
   return (
     <div className="App">
-      {/* <Header />
-      <Content /> */}
+      <Header />
+      <Content />
       {/* <Light1 /> */}
-      <Light2 />
+      {/* <Light2 /> */}
     </div>
   );
 }
